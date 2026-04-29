@@ -1,0 +1,115 @@
+{
+  "topic": {
+    "id": "linux",
+    "name": "Linux",
+    "description": "Linux basics and command line fundamentals",
+    "icon": "LX"
+  },
+  "questions": [
+    {
+      "question": "What is Linux?",
+      "options": [
+        "A text editor",
+        "An operating system kernel",
+        "A programming language",
+        "A database system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which command lists files in a directory?",
+      "options": ["list", "ls", "dir", "show"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which command is used to change directories?",
+      "options": ["mv", "cd", "cp", "ls"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does the 'pwd' command do?",
+      "options": [
+        "Prints the current directory path",
+        "Deletes files",
+        "Changes user password",
+        "Lists processes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which command is used to copy files?",
+      "options": ["mv", "cp", "rm", "touch"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which command removes files?",
+      "options": ["rm", "del", "erase", "cut"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does 'chmod' do?",
+      "options": [
+        "Changes file permissions",
+        "Creates directories",
+        "Moves files",
+        "Displays file content"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which command displays the content of a file?",
+      "options": ["cat", "ls", "echo", "pwd"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is the root directory in Linux?",
+      "options": ["/home", "/root", "/", "/bin"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which command creates a new directory?",
+      "options": ["mkdir", "rmdir", "touch", "newdir"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does 'sudo' allow you to do?",
+      "options": [
+        "Run commands with elevated privileges",
+        "Switch users permanently",
+        "Delete system files",
+        "View logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which file contains user account information?",
+      "options": ["/etc/passwd", "/etc/users", "/home/users", "/var/log/users"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does the 'top' command show?",
+      "options": [
+        "Disk usage",
+        "Running processes",
+        "Network configuration",
+        "File permissions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which command shows disk usage?",
+      "options": ["df", "du", "ls", "top"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is a shell in Linux?",
+      "options": [
+        "A hardware component",
+        "A graphical interface",
+        "A command-line interpreter",
+        "A file system"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

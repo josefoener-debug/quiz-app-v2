@@ -1,0 +1,40 @@
+{
+  "topic": {
+    "id": "pipelines",
+    "name": "Pipelines",
+    "description": "CI/CD pipeline basics",
+    "icon": "PL"
+  },
+  "questions": [
+    {
+      "question": "What is a pipeline in software development?",
+      "options": [
+        "A database schema",
+        "An automated sequence of steps to build and deploy code",
+        "A network protocol",
+        "A programming language"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the purpose of a CI pipeline?",
+      "options": [
+        "To monitor server uptime",
+        "To automatically test and integrate code changes",
+        "To manage user access",
+        "To design UI layouts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What typically happens in a CD pipeline?",
+      "options": [
+        "Writing application code",
+        "Debugging locally",
+        "Deploying applications to environments",
+        "Creating database tables manually"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

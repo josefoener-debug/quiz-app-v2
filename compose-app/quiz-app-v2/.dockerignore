@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+.github
+terraform
+__tests__
+*.md
+.env*

@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:16-alpine
+    env_file: .env
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./services/db/init:/docker-entrypoint-initdb.d:ro
+
+  api:
+    image: quiz-api:local
+    env_file: .env
+    depends_on:
+      - db
+
+  web:
+    image: quiz-web:local
+    ports:
+      - "3000:3000"
+    env_file: .env
+    depends_on:
+      - api
+
+volumes:
+  db-data:

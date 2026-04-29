@@ -1,0 +1,15 @@
+services:
+  web:
+    image: php:8.2-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./html:/var/www/html
+    # Wir müssen PHP sagen, dass es die MySQL-Erweiterung nutzen soll
+    command: >
+      sh -c "docker-php-ext-install mysqli && apache2-foreground"
+
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: example
